@@ -1,5 +1,5 @@
 # How use
 
 ```bash
-$ python3 img_filename out_filename
+$ python3 converterToPGM.py img_filename out_filename
 ```
