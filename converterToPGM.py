@@ -22,8 +22,8 @@ if __name__ == "__main__":
     parser.add_argument('out_filename', metavar='out_filename', type=str, nargs=1,
                         help='output name')
     args = parser.parse_args()
-    img_filename = args.img[0]
-    out_filename = args.convert[0]
+    img_filename = args.img_filename[0]
+    out_filename = args.out_filename[0]
 
     im = getImageGrayMatriz(img_filename)
     writePGMImage(im, out_filename)
